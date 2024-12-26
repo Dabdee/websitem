@@ -9,7 +9,8 @@ function App() {
 
   return (
     <>
-      <header>
+    <div className="site">
+    <header>
         <nav>
           <a href="#" id="main" className={position =="" ?"active":""}>
             Ana Sayfa
@@ -41,9 +42,6 @@ function App() {
             dolorem assumenda iusto?
           </p>
         </div>
-        <div>
-          <button class="contactMe"> İletişime Geç</button>
-        </div>
       </section>
 
       
@@ -73,10 +71,6 @@ function App() {
           <div>
             <img src="/images/figma_icon.png" alt="figma_icon.png" />
             <p>Figma</p>
-          </div>
-          <div>
-            <img src="/images/indesign_icon.png" alt="indesign_icon.png" />
-            <p>InDesign</p>
           </div>
           <div>
             <img src="/images/photoshop_icon.png" alt="photoshop_icon.png" />
@@ -126,6 +120,7 @@ function App() {
             <a href="https://github.com/Dabdee" target="_blank"><img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=DA4343" alt="Github" /></a>
           </div>
       </section>
+    </div>
     </>
   );
 }

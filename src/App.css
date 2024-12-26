@@ -33,26 +33,18 @@ header{
 .profilFoto {
   width: 300px;
   height: auto;
-  margin-right: 87px;
-  float: left;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
   border-radius: 15px;
 }
 
-.contactMe {
-  height: 64px;
-  width: 300px;
-  background-color: black;
-  border-color: white;
-  border-radius: 25px;
-  font-weight: bold;
-  font-size: 15px;
-  cursor: pointer;
-  transition: 300ms;
-  padding-bottom: 15px;
-}
-.contactMe:hover {
-  background-color: white;
-  color: black;
+.main_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hakkımda {
@@ -68,22 +60,15 @@ header{
 
 .container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 100%;
   gap: 90px;
   padding-bottom: 100px;
 }
 .container img {
-  width: 400px;
-  height: auto;
-}
-#illistrasyon img {
   width: 300px;
-  height: auto;
-}
-#hentai img {
-  width: 300px;
-  height: auto;
+  height: 300px;
 }
 
 .skills-img{
@@ -130,32 +115,9 @@ header{
   font-size: 36px;
 }
 
-input{
-  background-color: rgb(32, 32, 32);
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  width: 250px;
-  margin-bottom: 20px;
-}
-#subject{
-  background-color: rgb(32, 32, 32);
-  color: rgb(255, 255, 255);
+.site{
   display: flex;
-  width: 250px;
-  height: 250px;
-  margin: auto;
-  font-size: 20px;
-  margin-bottom: 25px;
-}
-#send{
-  width: 150px;
-  height: 50px;
-  margin: 10px;
-  background-color: #da4343;
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.icons{
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
