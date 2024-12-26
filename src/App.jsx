@@ -92,7 +92,7 @@ function App() {
           </div>
           <div>
             <img src="/images/vscode_icon.png" alt="VS Code" />
-            <p>VS Code</p>
+            <p>Visual Studio Code</p>
           </div>
         </div>
       </section>
