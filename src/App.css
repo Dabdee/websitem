@@ -1,7 +1,10 @@
 * {
-  background: black;
   color: white;
   padding: 0 15px;
+}
+
+body{
+  background-color: rgb(27, 0, 58);
 }
 
 :root {
@@ -16,11 +19,15 @@
 header{
   position: sticky;
   top: 0;
+  height: 25px;
   padding: 1rem;
   align-items: center ;
   justify-content: center;
   display: flex;
-  width: 100%;
+  width: 108.5%;
+  background-color: black;
+  border-radius: 0 0 25px 25px;
+  z-index: 100;
 }
 
 .active {
@@ -71,6 +78,11 @@ header{
   height: 300px;
 }
 
+.container image p{
+  display: flex;
+  justify-content: center;
+}
+
 .skills-img{
   display: flex;
   flex-wrap: wrap;
@@ -103,21 +115,28 @@ header{
   display: flex;
   align-items: center;
 }
-.message{
-  background-color: #222222;
-  width: 600px;
-  height: 500px;
-  text-align: center;
-  padding: 5px;
-}
-.message h1{
-  background-color: transparent;
-  font-size: 36px;
-}
 
 .site{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+
+.icons img{
+  transition: 0.5s all ease-in-out;
+  padding: 30px;
+  background-color: transparent;
+  border-radius: 100px;
+}
+.icons img:hover{
+  transform: scale(1.2);
+  margin: 0 15px;
+  background-color: white;
+}
+.contact h1{
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
 }
