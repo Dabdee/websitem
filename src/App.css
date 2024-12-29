@@ -5,6 +5,7 @@
 
 body{
   background-color: rgb(27, 0, 58);
+  margin: 0;
 }
 
 :root {
@@ -29,12 +30,22 @@ header{
   border-radius: 0 0 25px 25px;
   z-index: 100;
 }
+#main:hover{
+  font-weight: bold;
+}
+#portfolio:hover{
+  font-weight: bold;
+}
+#skills:hover{
+  font-weight: bold;
+}
+#connettion:hover{
+  font-weight: bold;
+}
+
 
 .active {
   color: #da4343;
-}
-#main:hover{
-  font-weight: bold;
 }
 
 .profilFoto {
@@ -45,7 +56,9 @@ header{
   justify-content: center;
   border-radius: 15px;
 }
-
+.mark{
+  color: rebeccapurple;
+}
 .main_page{
   display: flex;
   flex-direction: column;
@@ -54,10 +67,11 @@ header{
   text-align: center;
 }
 
-.hakkımda {
+.hakkimda {
   width: 500px;
   display: flex;
   padding-bottom: 50px;
+  font-size: 18px;
 }
 
 .photoshop {

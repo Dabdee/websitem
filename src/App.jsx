@@ -46,11 +46,11 @@ function App() {
           <div>
             <h1>HAKKIMDA</h1>
             <hr />
-            <p className="hakkımda">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati quibusdam cupiditate veniam fugit sapiente. Repellat
-              aperiam autem voluptates est cumque ratione accusamus, nobis ut
-              fuga ipsa? Illum dolorem assumenda iusto?
+            <p className="hakkimda">
+              Merhaba, ben Devrim Ali Biçer. Web geliştirme alanında kendimi
+              geliştirme yolunda ilerliyorum. Emin Gülmez'de aldığım eğitimle bu
+              alana adım attım ve modern web çözümleri üretmek için sürekli
+              öğrenmeye devam ediyorum.
             </p>
           </div>
         </section>
