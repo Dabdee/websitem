@@ -56,9 +56,10 @@ header{
   justify-content: center;
   border-radius: 15px;
 }
-.mark{
-  color: rebeccapurple;
+span{
+  color: red;
 }
+
 .main_page{
   display: flex;
   flex-direction: column;

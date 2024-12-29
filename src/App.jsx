@@ -47,7 +47,7 @@ function App() {
             <h1>HAKKIMDA</h1>
             <hr />
             <p className="hakkimda">
-              Merhaba, ben Devrim Ali Biçer. Web geliştirme alanında kendimi
+              Merhaba, ben <span>Devrim Ali Biçer</span>. Web geliştirme alanında kendimi
               geliştirme yolunda ilerliyorum. Emin Gülmez'de aldığım eğitimle bu
               alana adım attım ve modern web çözümleri üretmek için sürekli
               öğrenmeye devam ediyorum.
