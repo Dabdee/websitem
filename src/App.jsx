@@ -40,6 +40,7 @@ function App() {
         </header>
 
         <section className="full main_page">
+          <div className="main">
           <div>
             <img src="/images/profil.jpg" alt="profilFoto" class="profilFoto" />
           </div>
@@ -52,6 +53,7 @@ function App() {
               alana adım attım ve modern web çözümleri üretmek için sürekli
               öğrenmeye devam ediyorum.
             </p>
+          </div>
           </div>
         </section>
 
