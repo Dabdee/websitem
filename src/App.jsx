@@ -71,10 +71,6 @@ function App() {
               <p>Çizim</p>
               <img src="/images/çizim.jpg" alt="çizim" />
             </div>
-            <div id="hentai">
-              <p>Hentai Çeviri</p>
-              <img src="/images/HÇeviri.jpg" alt="HentaiÇeviri" />
-            </div>
           </div>
         </section>
 
